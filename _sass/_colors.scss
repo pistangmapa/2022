@@ -1,0 +1,89 @@
+$color-primary: #2e2e2e;
+$color-primary-dark: #0f0f0f;
+$color-primary-light: #6f6f6f;
+$color-muted: #f3f3f3;
+
+$color-pnm-red: #8b1948;
+$color-pnm-blue:#3f2384;
+$color-pnm-yellow: #e29e00;
+$color-pnm-muted: #4d4d4d;
+
+//PmM20
+// $color-pnm-red: #CE3704;
+// $color-pnm-blue:#2386D2;
+// $color-pnm-yellow: #feb938;
+// $color-pnm-muted: #4d4d4d;
+
+// Others
+$color-secondary: #5bcfbf;
+$color-tertiary: #32b9bd;
+$color-accent-red: #cc3500;
+$color-accent-blue: #2184d0;
+$color-accent-yellow: #fcec18;
+
+$color-primary-1: #8b1948;
+$color-primary-2: #3f2384;
+$color-primary-3: #e29e00;
+$color-primary-4: #4d4d4d;
+$color-black: #0f0f0f;
+$color-white: #ffffff;
+$color-grey: #6f6f6f;
+
+$color-muted: #f3f3f3;
+$color-accent-1: #5bcfbf;
+$color-accent-2: #32b9bd;
+$color-accent-3: #cc3500;
+$color-accent-4: #2184d0;
+$color-accent-5: #fcec18;
+
+.color-primary-1 {
+    color: $color-primary-1;
+}
+
+.color-primary-2 {
+    color: $color-primary-2;
+}
+
+.color-primary-3 {
+    color: $color-primary-3;
+}
+
+.color-primary-4 {
+    color: $color-primary-4;
+}
+
+.color-black {
+    color: $color-black;
+}
+
+.color-white {
+    color: $color-white;
+}
+
+.color-muted {
+    color: $color-muted;
+}
+
+.bg-color-primary-1 {
+    background-color: $color-primary-1;
+}
+
+.bg-color-primary-2 {
+    background-color: $color-primary-2;
+}
+
+.bg-color-primary-3 {
+    background-color: $color-primary-3;
+}
+
+.bg-color-primary-4 {
+    background-color: $color-primary-4;
+}
+
+.bg-color-muted {
+    background-color: $color-muted;
+}
+
+.bg-color-accent-1 {
+    background-color: $color-accent-1;
+}

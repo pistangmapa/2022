@@ -1,0 +1,40 @@
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{% if page.og_type %}{{ page.title }} - {{ site.title }}{% else %}{{ site.title }} - {{site.description}}{% endif %}</title>
+    <!-- OG meta -->
+
+    <meta property="og:url" content="{{ page.url | replace:'index.html','' | absolute_url }}" />
+    <meta property="og:type" content="{% if page.og_type %}{{ page.og_type }}{% else %}website{% endif %}">
+    <meta property="og:title" content="{% if page.title %}{{ page.title | smartify | strip_html | strip_newlines | escape_once }}{% else %}{{ site.title }}{% endif %}">
+    <meta property="og:description" content="{% if page.description %}{{ page.description | markdownify | strip_html | strip_newlines | truncate: 250 | escape_once }}{% else %}{{ site.description }}{% endif %}">
+    <meta property="og:image" content="{% if page.image.facebook %}{{ page.image.facebook | prepend: site.baseurl | prepend: site.url }}{% else %}{{ site.logo | prepend: site.baseurl | prepend: site.url }}{% endif %}"/>
+
+    {% if page.image.twitter %}
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content="{% if page.image.twitter %}{{ page.image.twitter | prepend: site.baseurl | prepend: site.url }}{% else %}{{ site.logo | prepend: site.baseurl | prepend: site.url }}{% endif %}"/>
+    {% endif %}
+
+    <!-- Facebook OG -->
+    {% if page.og_type %}
+      <meta property="article:author" content="{% if page.author.facebook %}https://www.facebook.com/{{ page.author.facebook }}{% else %}https://www.facebook.com/{{ site.author.facebook }}{% endif %}">
+    {% endif %}
+
+    <!-- Twitter OG -->
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="@{{ site.twitter_username | replace:'@','' }}">
+    {% if page.og_type %}
+      <meta name="twitter:creator" content="{% if page.author.twitter %}@{{ page.author.twitter | replace:'@','' }}{% else %}@{{ site.author.twitter | replace:'@','' }}{% endif %}">
+    {% endif %}
+    <meta name="twitter:title" content="{% if page.title %}{{ page.title | smartify | strip_html | strip_newlines | escape_once }}{% else %}{{ site.title }}{% endif %}">
+    <meta name="twitter:description" content="{% if page.description %}{{ page.description | markdownify | strip_html | strip_newlines | truncate: 250 | escape_once }}{% else %}{{ site.description }}{% endif %}">
+    <meta name="twitter:url" content="{{ page.url | replace:'/index.html','/' | prepend: site.baseurl | prepend: site.url }}">
+    <meta name="twitter:image" content="{% if page.image.twitter %}{{ page.image.twitter | prepend: site.baseurl | prepend: site.url }}{% else %}{{ site.logo | prepend: site.baseurl | prepend: site.url }}{% endif %}"/>
+
+
+    <link rel="shortcut icon" href="{{ site.baseurl }}/assets/img/logos/favicon.ico">
+
+    {% include head-assets.html %}
+    {% feed_meta %}
+</head>

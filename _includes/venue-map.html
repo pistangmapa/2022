@@ -1,0 +1,26 @@
+<script>
+    var venuemap = L.map('map').setView([10.3289, 123.9013], 12);
+
+    var omsMapnik = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+	maxZoom: 20,
+	attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'});
+
+    var voyager =L.tileLayer('https://{s}.basemaps.cartocdn.com/rastertiles/voyager_labels_under/{z}/{x}/{y}.png', {
+        maxZoom: 20,
+        attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors, <a href="https://carto.com/">CARTO</a> (style)'
+    })
+
+    var pnmIcon = L.icon({
+        iconUrl: '{{ site.baseurl }}/assets/img/logos/pnm.png',
+
+        iconSize:     [44, 60], // size of the icon
+        iconAnchor:   [22, 60], // point of the icon which will correspond to marker's location
+        popupAnchor:  [-3, -76] // point from which the popup should open relative to the iconAnchor
+    });
+
+    var marker = L.marker([10.3289, 123.9013], {icon: pnmIcon})
+
+    // omsMapnik.addTo(venuemap)
+    voyager.addTo(venuemap);
+    marker.addTo(venuemap);
+</script>

@@ -1,0 +1,40 @@
+# site settings
+title: Pista ng Mapa 2022
+description: "a free and open mapping conference in the Philippines"
+email: "pistangmapa@gmail.com"
+baseurl: "/2022"
+logo: "/assets/img/logos/pnm-sq.png"
+favicon: favicon.ico
+repo_address: "pistangmapa/2022"
+messenger: ""
+facebook: "PistaNgMapa2020"
+twitter: "pistangmapa"
+instagram: ""
+mastodon: "@pistangmapa"
+telegram: "pistangmapa"
+github: "pistangmapa"
+yt-stream-link: ""
+
+# tito event
+tito-event: "pistangmapa/2021-online"
+
+# exclude
+exclude:
+    - .gitignore
+    - Gemfile
+    - Gemfile.lock
+
+# build settings
+markdown: kramdown
+highlighter: rouge
+# kramdown:
+#     input: GFM
+#     syntax_highlighter: rouge
+
+# plugins
+plugins:
+    - github-pages
+    - jekyll-feed
+    - jekyll-seo-tag
+    - jekyll-sitemap
+    - jekyll-redirect-from

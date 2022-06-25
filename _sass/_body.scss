@@ -1,0 +1,246 @@
+body {
+    font-family: $font-nunito;
+    color: $color-black;
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 1.7;
+    //background: url("../img/site/background.jpg") no-repeat center center fixed;
+    // background: url("../img/site/background.jpg");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+
+    strong, b {
+        font-weight: bold;
+    }
+
+    p.small {
+        font-weight: 300;
+    }
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: $font-bantayog;
+    color: $color-primary-1;
+    line-height: 1.4;
+}
+
+h1 {
+    font-weight: bold;
+}
+
+h2 {
+    font-weight: 500;
+}
+
+h3, h4, h5, h6 {
+    font-weight: 500;
+}
+
+p {
+    font-family: $font-nunito;
+    color: $color-black;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 1.7;
+
+    small {
+        font-weight: 300;
+    }
+}
+
+strong, b {
+    font-weight: bold;
+}
+
+.small-line-height {
+    line-height: 1.5;
+}
+
+.no-underline-link {
+    text-decoration: none;
+    &:hover {
+        text-decoration: none;
+    }
+}
+
+.add-shadow {
+    text-shadow: 0 0 4px #1BC2EE;
+}
+
+#results-container {
+    padding: 0;
+    li {
+        list-style: none;
+        text-align: right;
+        a {
+            @extend .no-underline-link;
+            font-family: $font-nunito;
+            &:hover {
+                color: $color-black;
+            }
+        }
+    }
+}
+
+#to-top-button {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 5%;
+    z-index: 99;
+    border: none;
+    outline: none;
+    color: white;
+    cursor: pointer;
+    padding: 12px;
+    border-radius: 5px;
+    background-color: $color-black;
+    opacity: 0.5;
+
+    &:hover {
+        background-color: $color-primary;
+        opacity: 0.5;
+    }
+
+}
+
+.list-style-none {
+    list-style: none;
+    margin-left: 0;
+    padding-left: 0;
+}
+
+.highlight {
+    margin: 0.5rem 0rem;
+    padding: 0.25rem 0.5rem;
+}
+
+.title-name {
+    font-family: $font-bantayog;
+    font-size: 28px;
+
+    @media (max-width: 540px) {
+        font-size: 23px;
+    }
+
+    @media (max-width: 320px) {
+        font-size: 18px;
+    }
+}
+
+.jumbotron-title {
+    font-size: 80px;
+    line-height: 1.2;
+    @media (max-width: 540px) {
+        font-size: 60px;
+    }
+
+    @media (max-width: 320px) {
+        font-size: 40px;
+    }
+}
+
+.jumbotron-title-small {
+    font-size: 64px;
+    line-height: 1.2;
+    @media (max-width: 540px) {
+        font-size: 48px;
+    }
+
+    @media (max-width: 320px) {
+        font-size: 32px;
+    }
+}
+
+.jumbotron-title-smaller {
+    font-size: 42px;
+    line-height: 1.2;
+    @media (max-width: 540px) {
+        font-size: 32px;
+    }
+
+    @media (max-width: 320px) {
+        font-size: 20px;
+    }
+}
+
+.jumbotron-title-smallest {
+    font-size: 24px;
+    line-height: 1.4;
+    @media (max-width: 540px) {
+        font-size: 20px;
+    }
+
+    @media (max-width: 320px) {
+        font-size: 16px;
+    }
+}
+
+#submit-pres-btn {
+    background-color: rgba(254, 185, 56, 0.5);
+    box-shadow: 0 0 8px $color-tertiary;
+    // border-color: rgba(254, 185, 56, 0.8);
+    // border-width: 2px;
+}
+
+
+.programme-table {
+    width: 100%;
+    background-color: transparent;
+    border-collapse: collapse;
+    border-spacing: 0;
+    margin: 1em 0;
+
+    thead td {
+        border: solid 1px $color-primary-1;
+        background-color: $color-primary-1;
+        color: #fff;
+        padding: 10px;
+        display: table-cell;
+    }
+
+    tbody td {
+        border: solid 1px #cfcfcf;
+        padding: 10px;
+        display: table-cell;
+
+        &:first-child {
+            text-align: center;
+        }
+    }
+
+    .break-time {
+        background: fade-out($color-primary-1, 0.85);
+    }
+
+    .session-header,
+    .sponsor-note {
+        margin: -10px -10px 10px;
+        padding: 10px;
+        font-weight: bold;
+        font-size: 0.7em;
+        text-transform: uppercase;
+        background: fade-out($color-primary-1, 0.75);
+    }
+
+    .session-title {
+        margin: 0;
+
+        .session-subtitle {
+            display: block;
+            font-size: 0.85em;
+        }
+    }
+
+    .speaker {
+        margin-bottom: 0;
+        color: $color-primary-light;
+
+        + .session-title {
+            display: block;
+            margin-top: 1rem;
+        }
+    }
+}
