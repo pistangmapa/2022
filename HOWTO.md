@@ -1,4 +1,4 @@
-1. Make a Gemfile in tbe 2020 folder with the following lines
+1. Make a Gemfile in the 2022 folder with the following lines
 ```bash
 source 'https://rubygems.org'
 gem 'github-pages', group: :jekyll_plugins
