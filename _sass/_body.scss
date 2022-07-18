@@ -244,3 +244,10 @@ strong, b {
         }
     }
 }
+
+.btn-hover {
+    &:hover {
+        background-color: $color-primary-3;
+        color: $color-primary-1;
+    }
+}

@@ -10,11 +10,11 @@ layout: home
     {% include about.html %}
 </section>
 
-<section class="py-4 container-fluid bg-color-muted" id="volunteers">
+<section class="py-4 container-fluid bg-color-accent-2" id="volunteers">
     {% include home_cfv.html %}
 </section>
     
-<section class="py-4 container-fluid bg-color-muted" id="sponsors">
+<section class="py-4 container-fluid bg-color-accent-2" id="sponsors">
     {% include home_cfs.html %}
 </section>
 
