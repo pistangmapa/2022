@@ -21,20 +21,20 @@ $color-accent-red: #cc3500;
 $color-accent-blue: #2184d0;
 $color-accent-yellow: #fcec18;
 
-$color-primary-1: #8b1948;
-$color-primary-2: #3f2384;
-$color-primary-3: #e29e00;
-$color-primary-4: #4d4d4d;
+$color-primary-1: #4c9f70;
+$color-primary-2: #6190BD;
+$color-primary-3: #ffcf33;
+$color-primary-4: #f4562a;
 $color-black: #0f0f0f;
 $color-white: #ffffff;
 $color-grey: #6f6f6f;
 
 $color-muted: #f3f3f3;
-$color-accent-1: #5bcfbf;
-$color-accent-2: #32b9bd;
-$color-accent-3: #cc3500;
-$color-accent-4: #2184d0;
-$color-accent-5: #fcec18;
+$color-accent-1: #61c5b8;
+$color-accent-2: #fffcdf;
+$color-accent-3: #b80000;
+$color-accent-4: #e8e5cb;
+$color-accent-5: #422b24;
 
 .color-primary-1 {
     color: $color-primary-1;
@@ -64,6 +64,27 @@ $color-accent-5: #fcec18;
     color: $color-muted;
 }
 
+.color-accent-1 {
+    color: $color-accent-1;
+}
+
+.color-accent-2 {
+    color: $color-accent-2;
+}
+
+.color-accent-3 {
+    color: $color-accent-3;
+}
+
+.color-accent-4 {
+    color: $color-accent-4;
+}
+
+
+.color-accent-5 {
+    color: $color-accent-5;
+}
+
 .bg-color-primary-1 {
     background-color: $color-primary-1;
 }
@@ -86,4 +107,21 @@ $color-accent-5: #fcec18;
 
 .bg-color-accent-1 {
     background-color: $color-accent-1;
+}
+
+.bg-color-accent-2 {
+    background-color: $color-accent-2;
+}
+
+.bg-color-accent-3 {
+    background-color: $color-accent-3;
+}
+
+.bg-color-accent-4 {
+    background-color: $color-accent-4;
+}
+
+
+.bg-color-accent-5 {
+    background-color: $color-accent-5;
 }
