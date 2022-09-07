@@ -9,15 +9,32 @@
         </button>
         <div class="collapse navbar-collapse" id="main-navbar">
             <ul class="navbar-nav ml-auto">
-                 <li>
-                    <a class="nav-link btn-hover" href="{{ site.baseurl }}/#about">About</a>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="{{ site.baseurl }}/#">about</a>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="{{ site.baseurl }}/#about">pista ng mapa</a>
+                        <a class="dropdown-item" href="{{ site.baseurl }}/conference/loc">organizing committee</a>
+                    </div>
                 </li>
                 <li>
-                    <a class="nav-link btn-hover" href="{{ site.baseurl }}/#volunteers">Volunteer</a>
+                    <a class="nav-link btn-hover" href="{{ site.baseurl }}/#cfp">Call for Presentations</a>
+                </li>
+                <li>
+                    <a class="nav-link btn-hover" href="{{ site.baseurl }}/#registration">Register</a>
                 </li>
                 <li>
                     <a class="nav-link btn-hover" href="{{ site.baseurl }}/#sponsors">Sponsor</a>
-                </li>                
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="{{ site.baseurl }}/#">conference</a>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="{{ site.baseurl }}/conference/code-of-conduct">code of conduct</a>
+                        <a class="dropdown-item" href="{{ site.baseurl }}/programme/presentation-guidelines">presentation guidelines</a>
+                    </div>
+                </li>
+                <!-- <li>
+                    <a class="nav-link btn-hover" href="{{ site.baseurl }}/#sponsors">Sponsor</a>
+                </li>                 -->
             </ul>
         </div>
     </nav>
