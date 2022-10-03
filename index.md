@@ -24,8 +24,13 @@ layout: home
 </section>
  -->
 
+<section class="py-4 container-fluid" id="univ-partner">
+    {% include home_univ_partner.html %}
+</section>
+
 <section class="py-4 container-fluid" id="sponsors">
     {% include home_cfs.html %}
 </section>
+
 
 {% include countdown.html %}

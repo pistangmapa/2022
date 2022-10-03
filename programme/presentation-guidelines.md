@@ -95,9 +95,9 @@ Kindly inform us if you do not wish for your presentations to be published or st
 
 |---------------------------------------|----------:|
 | **Opening of submissions**            |     September 2, 2022     |
-| **Deadline of submissions**           |     September 30, 2022    |
-| **Community vote**                    |     October 3-7, 2022    |
-| **Announcement of accepted presentations** &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; |     October 10, 2022    |
+| **Deadline of submissions**           |     October 9, 2022    |
+| **Community vote**                    |     October 12-19, 2022    |
+| **Announcement of accepted presentations** &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; |     October 21, 2022    |
 |   |   |
 
 
