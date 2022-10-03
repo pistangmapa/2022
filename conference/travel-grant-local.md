@@ -10,7 +10,7 @@ tags:
 
 - Resident of the Philippines
 - Filipino Citizen
-- Must have registered as a participant or submitted a presentation to the conference
+- Must have [registered as a participant](https://pistangmapa.org/2022/register) or [submitted a presentation](https://pistangmapa.org/2022/cfp) to the conference
 
 ## Application
 Participants must fill out the [**application form**](https://airtable.com/shrNiqMHPjMgidfNS), and answer questions to determine their profile.
