@@ -6,7 +6,7 @@ tags:
 ---
 <h1 class="color-primary-4 mb-2">Pista ng Mapa & State of the Map Asia 2022 (LOCAL) Travel Grant</h1>
 
-**IMPORTANT: Application to the local travel grant is not an assurance that you will be awarded a travel grant. Travel grant awardees will be informed by the Organizing Committe by the week of October 17, 2022.**
+**IMPORTANT: Application to the local travel grant is not an assurance that you will be awarded a travel grant. Travel grant awardees will be informed by the Organizing Committee on the week of October 17, 2022.**
 
 
 ## Eligibility
