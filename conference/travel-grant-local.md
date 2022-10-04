@@ -6,6 +6,9 @@ tags:
 ---
 <h1 class="color-primary-4 mb-2">Pista ng Mapa & State of the Map Asia 2022 (LOCAL) Travel Grant</h1>
 
+**IMPORTANT: Application to the local travel grant is not an assurance that you will be awarded a travel grant. Travel grant awardees will be informed by the Organizing Committe by the week of October 17, 2022.**
+
+
 ## Eligibility
 
 - Resident of the Philippines
@@ -13,6 +16,7 @@ tags:
 - Must have [registered as a participant](https://pistangmapa.org/2022/register) or [submitted a presentation](https://pistangmapa.org/2022/cfp) to the conference
 
 ## Application
+
 Participants must fill out the [**application form**](https://airtable.com/shrNiqMHPjMgidfNS), and answer questions to determine their profile.
 
 ## Responsibilities
@@ -43,5 +47,7 @@ Travel grantees are also encouraged to join the volunteer group for the conferen
     - **PhP 8,000** to cover a round-trip plane ticket to Legazpi City, Albay
 
 Grantees are expected to book their own tickets.
+
+
 
 {% include submit_travel_grant_local.html %}
