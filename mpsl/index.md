@@ -47,7 +47,7 @@ The entries will be judged according to the following criteria:
 <div class="d-flex justify-content-start py-2"><a
     href="https://airtable.com/shrDuiatwXSlLyWKF"
     target="_blank" class="btn btn-lg bg-color-primary-1 col-sm-12 col-md-6 btn-hover color-white" role="button"
-    aria-disabled="true"><strong class="font-bantayog">Apply for a travel grant!</strong></a>
+    aria-disabled="true"><strong class="font-bantayog">Submit your map!</strong></a>
 </div> 
 
 ## Winners
