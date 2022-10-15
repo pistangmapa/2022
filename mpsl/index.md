@@ -40,6 +40,7 @@ The entries will be judged according to the following criteria:
 ## Timeline
 
 **Start of Application:** 15-Oct-2022
+
 **End of Application:** 29-Oct-2022
 
 ## Submission
