@@ -10,13 +10,17 @@ layout: home
     {% include about.html %}
 </section>
 
-<section class="py-4 container-fluid bg-color-accent-2" id="cfp">
-    {% include home_cfp.html %}
+<section class="py-4 container-fluid bg-color-accent-2" id="program">
+    {% include home_program.html %}
 </section>
 
-<section class="py-4 container-fluid bg-color-accent-2" id="registration">
+<!-- <section class="py-4 container-fluid bg-color-accent-2" id="cfp">
+    {% include home_cfp.html %}
+</section> -->
+
+<!-- <section class="py-4 container-fluid bg-color-accent-2" id="registration">
     {% include home_reg.html %}
-</section>
+</section> -->
 
 
 <!-- <section class="py-4 container-fluid bg-color-accent-2" id="volunteers">
