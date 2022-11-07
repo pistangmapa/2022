@@ -138,7 +138,7 @@ Other accommodations include:
     - Foreign diplomats and their dependents/(e) visa holders 
 
 
-## COVID REQUIREMENTS TO ENTER BICOL REGION (ALBAY) — not yet final
+<!-- ## COVID REQUIREMENTS TO ENTER BICOL REGION (ALBAY) — not yet final
 ### All LGUs 
 - Fully Vaccinated  
     1. COVID-19 Vaccination card  
@@ -158,7 +158,7 @@ Other accommodations include:
 ### Foreign Delegates 
 - Medical Certificate 
 - Vaccination Card 
-- Valid I.D 
+- Valid I.D  -->
 
 
 REFERENCE:
