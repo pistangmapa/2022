@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Pista ng Mapa & State of the Map Asia 2022 (LOCAL) Travel Grant
-description: Travel grant guidelines for Pista ng Mapa & State of the Map Asia 2022
+title: Pista ng Mapa & State of the Map Asia 2022 Travel Guidelines
+description: Travel guidelines for Pista ng Mapa & State of the Map Asia 2022
 tags: 
 ---
 <h1 class="color-primary-4 mb-2">State of the Map Asia and Pista ng Mapa 2022 Conference Travel Guidelines</h1>
@@ -116,3 +116,40 @@ Other accommodations include:
 - 47 Sikatuna, Old Albay District, Legazpi City, 4500 Albay, Legazpi, Philippines
 - ☎ (052) 742 0436
 - https://www.facebook.com/vicentesresidenceslegazpicity
+
+
+## COVID Regulations
+
+### Requirements for fully vaccinated foreign nationals of non-visa required  countries and foreign nationals with valid and existing visas 
+- Fully vaccinated inbound travelers, regardless of country of origin, will no longer be  required to undergo facility-based quarantine provided they can present proof of their fully  vaccinated status. 
+- Adults who have completed their COVID-19 vaccination and have at least one booster  shot will be exempted from the testing requirement. 
+- Proof of their fully vaccinated status (and booster shot if applicable). The following are  accepted: 
+    - An International Certificate of Vaccination (ICV) from the World Health  Organization 
+    - A VaxCertPH digital vaccination certificate 
+    - A national/state digital certificate of the foreign government where they were  vaccinated, which has accepted VaxCertPH under a reciprocal arrangement. • For those who are fully vaccinated but don’t have a booster shot, a negative RT-PCR test  result taken within 48 hours prior to departure from the origin country or a negative  laboratory-based antigen test taken within 24 hours prior to departure from the origin  country. 
+- An eArrival Card which they can register for via onehealthpass.com.ph. This must be  filled out within 72 hours from their arrival. 
+- Foreign nationals with valid and existing visas need to present their valid visa and  ACR I-Card 
+
+### Requirements for unvaccinated and partially vaccinated travelers 
+- Unvaccinated and partially vaccinated foreign nationals will not be allowed entry into the  country except for the following cases: 
+    - Children below 18 years old 
+o People medically unable to receive the vaccine as certified by a public health  authority from their country of origin 
+o Foreign diplomats and their dependents/(e) visa holders 
+COVID REQUIREMENTS TO ENTER BICOL REGION (ALBAY) — not yet final
+• All LGUs 
+o Fully Vaccinated  
+a. COVID-19 Vaccination card  
+b. Valid ID  
+o Incomplete Vaccination / Not Vaccinated  
+a. Negative RT-PCR/Antigen test result  
+b. Valid ID 
+COVID REQUIREMENTS TO ENTER BICOL UNIVERSITY – EAST  CAMPUS 
+• Filipino Delegates 
+o Philhealth 
+o Medical Certificate 
+o Vaccination Card 
+o Valid I.D 
+• Foreign Delegates 
+o Medical Certificate 
+o Vaccination Card 
+o Valid I.D 
