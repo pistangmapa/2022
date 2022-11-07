@@ -32,9 +32,9 @@ layout: home
     {% include home_univ_partner.html %}
 </section>
 
-<section class="py-4 container-fluid" id="sponsors">
+<!-- <section class="py-4 container-fluid" id="sponsors">
     {% include home_cfs.html %}
-</section>
+</section> -->
 
 
 {% include countdown.html %}
