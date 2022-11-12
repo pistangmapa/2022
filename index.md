@@ -6,6 +6,16 @@ layout: home
 <div class="container display-4 text-center pb-2" id="demo"></div>
 </section>
 
+<section class="pt-4 pb-2 container-fluid bg-color-accent-2" id="trav">
+<div class="container">
+<p class="larger">
+<strong>Attending the Pista?</strong>
+<br>
+Read the <a href="{{ site.baseurl }}/conference/travel-guidelines">travel guidelines</a> first.
+</p>
+</div>
+</section>
+
 <section class="py-4 container-fluid" id="about">
     {% include about.html %}
 </section>
@@ -32,9 +42,9 @@ layout: home
     {% include home_univ_partner.html %}
 </section>
 
-<!-- <section class="py-4 container-fluid" id="sponsors">
-    {% include home_cfs.html %}
-</section> -->
+<section class="py-4 container-fluid" id="sponsors">
+    {% include home_sponsors.html %}
+</section>
 
 
 {% include countdown.html %}
